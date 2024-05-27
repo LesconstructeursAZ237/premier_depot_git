@@ -1,6 +1,6 @@
 <?php
 
-require_once('./../../Connexion/core/Database/connection.php');
+require_once('./../../Connexion/core/Database/connection.php');// connexion a une base de donnee
 $conn = (new Database())->getConnection();
 
    if(isset($_GET['id'])){
